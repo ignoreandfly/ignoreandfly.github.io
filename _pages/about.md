@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Siddhant, I am currently a PreDoc at the Indian Institute of Science, Bangalore where I work on the AI side of the Oral Cancer Screening Project under the supervision of [Prof. Rajesh Sunderasan](https://ece.iisc.ac.in/~rajeshs/) and [Prof. Chandra Sekhar Seelamantula](https://ee.iisc.ac.in/chandra-sekhar-seelamantula/)
+Hello, I am Siddhant, I am currently a PreDoc at the Indian Institute of Science, Bangalore where I work on the AI side of the Oral Cancer Screening Project under the supervision of [Prof. Rajesh Sundaresan](https://ece.iisc.ac.in/~rajeshs/) and [Prof. Chandra Sekhar Seelamantula](https://ee.iisc.ac.in/chandra-sekhar-seelamantula/)
  
 I graduated with a major in Electrical and Electronics with a minor in Data Science at Manipal Institute of Technology, Manipal in 2024. My interest lies in deep learning, computer vision, and image processing.
 
