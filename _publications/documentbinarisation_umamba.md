@@ -8,4 +8,4 @@ venue: 'Tiny Papers Track at ICVGIP'
 paperurl: 'https://arxiv.org/abs/2410.22811'
 # citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
- *Mohd Azfar* *, **Siddhant Bharadwaj* **, Ashwin Sasikumar
+ *Mohd Azfar*, **Siddhant Bharadwaj**, Ashwin Sasikumar
