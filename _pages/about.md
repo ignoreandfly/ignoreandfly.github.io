@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Siddhant, a final year undergrad majoring in Electrical and Electronics with a minor in Data Science at Manipal Institute of Technology, Manipal. My interest lies in deep learning, computer vision, and image processing.
+Hello, I am Siddhant, I am currently a PreDoc at the Indian Institute of Science, Bangalore where I work on the AI side of the Oral Cancer Screening Project under the supervision of [Prof. Rajesh Sunderasan](https://ece.iisc.ac.in/~rajeshs/) and [Prof. Chandra Sekhar Seelamantula](https://ee.iisc.ac.in/chandra-sekhar-seelamantula/)
+ 
+I graduated with a major in Electrical and Electronics with a minor in Data Science at Manipal Institute of Technology, Manipal in 2024. My interest lies in deep learning, computer vision, and image processing.
 
 Previously, I interned at Spectrum Lab in the [Indian Institute of Science, Bangalore](https://eecs.iisc.ac.in/), where I worked on adapting the [Segment Anything Model](https://segment-anything.com/)  for the task of optic disc and optic cup segmentation in fundus image. 
 

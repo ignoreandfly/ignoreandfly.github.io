@@ -8,6 +8,6 @@ venue: 'Tiny Papers Track at ICVGIP'
 #paperurl: 'https://link.springer.com/chapter/10.1007/978-981-97-6103-6_48'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
- *Mohd Azfar* *, **Siddhant Bharadwaj**, Ashwin Sasikumar<br><br>
+ *Mohd Azfar* *, **Siddhant Bharadwaj* **, Ashwin Sasikumar<br><br>
 <!-- 
 Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
