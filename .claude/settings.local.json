@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(curl -sL -H \"User-Agent: Mozilla/5.0\" -o schneider-logo.svg \"https://upload.wikimedia.org/wikipedia/commons/9/95/Schneider_Electric_2007.svg\")"
     ]
   }
 }
