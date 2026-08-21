@@ -189,22 +189,39 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+  gap: 28px 40px;
+  flex-wrap: wrap;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+/* Fixed optical box: the marks range from 0.86:1 badges to 5.96:1 wordmarks,
+   so constrain both axes instead of height alone, or the wordmarks dominate. */
+.affiliation-logos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 54px;
 }
 
 .affiliation-logos img {
-  height: 65px;
-  opacity: 0.75;
-  filter: grayscale(20%);
-  transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.affiliation-logos img:hover {
+.affiliation-logos a:hover img {
   opacity: 1;
-  filter: grayscale(0%);
   transform: translateY(-2px);
+}
+
+/* MedARC ships as a solid navy badge; round it so it reads as intentional
+   next to the transparent marks. */
+.affiliation-logos img[src*="medarc"] {
+  border-radius: 10px;
 }
 
 /* SECTIONS BASE */
@@ -338,12 +355,12 @@ papertitle {
   }
 
   .affiliation-logos {
-    gap: 25px;
-    flex-wrap: wrap;
+    gap: 24px 32px;
   }
 
-  .affiliation-logos img {
-    height: 55px;
+  .affiliation-logos a {
+    width: 104px;
+    height: 46px;
   }
 
   .research-section h2 {
@@ -398,11 +415,12 @@ papertitle {
   }
 
   .affiliation-logos {
-    gap: 18px;
+    gap: 18px 22px;
   }
 
-  .affiliation-logos img {
-    height: 42px;
+  .affiliation-logos a {
+    width: 82px;
+    height: 38px;
   }
 
   .research-section h2 {
