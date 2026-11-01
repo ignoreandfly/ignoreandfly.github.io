@@ -97,6 +97,24 @@ main {
   margin: 0 0 16px 0;
 }
 
+.hero-bio h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 24px 0 8px 0;
+  color: var(--text-primary);
+}
+
+.hero-bio ul {
+  padding-left: 20px;
+  margin: 0 0 16px 0;
+}
+
+.hero-bio li {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
 .hero-bio p:last-child {
   margin-bottom: 0;
 }
@@ -299,6 +317,108 @@ papertitle {
   opacity: 0.8;
 }
 
+/* NEWS */
+.news-list {
+  list-style: none;
+  margin-top: 16px;
+}
+
+.news-list li {
+  display: flex;
+  gap: 20px;
+  padding: 8px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.news-date {
+  flex: 0 0 76px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* PUBLICATIONS */
+.pubs {
+  margin-top: 30px;
+}
+
+.pub {
+  display: flex;
+  gap: 24px;
+  padding: 20px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Divider on top rather than bottom, so hidden entries never leave a stray line */
+.pub + .pub {
+  border-top: 1px solid var(--border-light);
+}
+
+.pubs.collapsed .pub-more {
+  display: none;
+}
+
+.pub-venue {
+  flex: 0 0 112px;
+  padding-top: 2px;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--accent-color);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+.badge-muted {
+  background: #8a8a8a;
+}
+
+.highlight {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.research-section p.pub-tldr {
+  margin-top: 6px;
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+.pub-links {
+  margin-top: 4px;
+}
+
+.pubs-toggle {
+  margin-top: 16px;
+  padding: 8px 16px;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--accent-color);
+  background: transparent;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.pubs-toggle:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
+
 /* FOOTER */
 .footer {
   text-align: center;
@@ -310,8 +430,9 @@ papertitle {
 
 /* RESPONSIVE RULES */
 @media (max-width: 900px) {
+  /* Name and bio first on narrow screens; photo and links follow */
   .hero {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 40px;
     margin: 60px 0 40px;
   }
@@ -359,7 +480,9 @@ papertitle {
   }
 
   .research-section td,
-  .research-section p {
+  .research-section p,
+  .pub,
+  .news-list li {
     font-size: 15px;
   }
 
@@ -373,7 +496,8 @@ papertitle {
     font-size: 36px;
   }
 
-  .hero-bio p {
+  .hero-bio p,
+  .hero-bio li {
     font-size: 15px;
   }
 
@@ -420,6 +544,30 @@ papertitle {
 
   papertitle {
     font-size: 14px;
+  }
+
+  /* Badge moves above the title instead of sitting in a side column */
+  .pub {
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .pub-venue {
+    flex: none;
+  }
+
+  .research-section p.pub-tldr {
+    font-size: 14px;
+  }
+
+  .news-list li {
+    gap: 12px;
+    font-size: 14px;
+  }
+
+  .news-date {
+    flex-basis: 64px;
   }
 }
 
